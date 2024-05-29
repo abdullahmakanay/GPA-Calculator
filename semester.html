@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title>Semester GPA</title>
+        <link rel='stylesheet' href='styles/semester2.css'>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="calculate.js"></script>
+    </head>
+    <body>
+        
+        <h1>Semester GPA</h1>
+        <div id="semesterContainer">
+            
+            <table>
+                <tr id="headers">
+                    <th><h2 id="grade">Grade</h2></th>
+                    <th><h2 id="creditHours">Credit Hours</h2></th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="grade1" id="grade1" class="inputTextSemester">
+                    </td>
+                    <td>
+                        <select name="dropdown" id="credit1" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="grade2" id="grade2" class="inputTextSemester">
+                    </td>
+                    <td>
+                        <select name="dropdown" id="credit2" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="grade3" id="grade3" class="inputTextSemester">
+                    </td>
+                    <td>
+                        <select name="dropdown" id="credit3" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="grade4" id="grade4" class="inputTextSemester">
+                    </td>
+                    <td>
+                        <select name="dropdown" id="credit4" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="grade5" id="grade5" class="inputTextSemester">
+                    </td>
+                    <td>
+                        <select name="dropdown" id="credit5" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="grade6" id="grade6" class="inputTextSemester">
+                    </td>
+                    <td>
+                        <select name="dropdown" id="credit6" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="grade7" id="grade7" class="inputTextSemester">
+                    </td>
+                    <td>
+                        <select name="dropdown" id="credit7" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Calculate" id="calculateButton" onclick="calculateSemesterGPA()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

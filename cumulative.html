@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cumulative GPA</title>
+        <link rel="stylesheet" href="styles/cumulative2.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="calculate.js"></script>
+    </head>
+    <body>
+        <h1>Cumulative GPA</h1>
+        <div id="cumulativeContainer">           
+            <table> 
+                <tr>
+                    <th class="headers" id="oldCumulativeSentence"><h2>Old Cumulative GPA</h2></th>
+                    <td><input type="text" id="cumulativeGPA" class="inputTextCumulativeUp"></td>
+                </tr>
+                <tr>
+                    <th class="headers" id="passedHoursSentence"><h2>Passed Hours</h2></th>
+                    <td><input type="text" id="passedHours" class="inputTextCumulativeUp"></td>
+                </tr>
+                <tr>
+                    <th id="grade"><h2>Grade</h2></th>
+                    <th id="creditHours"><h2>Credit Hours</h2></th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="grade1" id="grade1" class="inputTextCumulative"></td>
+                    <td>
+                        <select id="credit1" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="grade2" id="grade2" class="inputTextCumulative"></td>
+                    <td>
+                        <select id="credit2" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="grade3" id="grade3" class="inputTextCumulative"></td>
+                    <td>
+                        <select id="credit3" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="grade4" id="grade4" class="inputTextCumulative"></td>
+                    <td>
+                        <select id="credit4" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="grade5" id="grade5" class="inputTextCumulative"></td>
+                    <td>
+                        <select id="credit5" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="grade6" id="grade6" class="inputTextCumulative"></td>
+                    <td>
+                        <select id="credit6" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="grade7" id="grade7" class="inputTextCumulative"></td>
+                    <td>
+                        <select id="credit7" class="dropdown">
+                            <option value="" selected>Select</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Calculate" id="calculateButton" onclick="calculateCumulativeGPA();">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
